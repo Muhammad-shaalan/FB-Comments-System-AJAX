@@ -1,0 +1,92 @@
+body{
+	background-color: #007bff
+}
+
+/*Start Post A Post*/
+h1{
+	padding-top: 30px;
+	color: #FFF
+}
+
+.col-md-8{
+	overflow: hidden;
+	margin: 20px auto
+}
+
+form{
+	background-color: #FFF;
+	padding: 20px;
+	border-radius: 5px;	
+}
+
+form label{
+	color: #ccc
+}
+
+form input{
+	margin-top: 10px;
+	padding: 8px 15px !important
+}
+
+/*End Post A Post*/
+
+/*Start Posts Menu*/
+
+.card{
+	margin-top: 15px
+}
+
+.card  i{
+	margin-right: 8px;
+	color: #aaa
+}
+
+.card i:hover{
+	color: #444;
+	cursor: pointer;
+}
+
+.card .card-body span{
+	display: inline-block;
+	margin: 15px 0;
+}
+
+.card .card-body p{
+	margin: 10px 0;
+}
+
+/*End Posts Menu*/
+
+/*Start Edit Comment*/
+.edit{
+	display: none;	
+	background-color: #f7f7f7
+}
+
+@media only screen and (min-width: 300px) {
+	.edit{
+		top: -500px;
+		left: 0px
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.edit{
+		position: absolute;
+		top: 150px;
+		left: 240px
+	}
+}
+
+.edit form{
+	background-color: #f7f7f7
+}
+
+.edit span{
+	position: absolute;
+    top: 0;
+    right: 22px;
+    cursor: pointer;
+}
+
+/*End Edit Comment*/
